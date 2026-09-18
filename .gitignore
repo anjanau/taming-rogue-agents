@@ -1,0 +1,17 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+/.vscode/.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.phoenix/
+*.log
+ARCHITECTURE.md
+SPEAKER_NOTES.md
+SPEAKER_README.md
+
+alt_demos/

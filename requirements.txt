@@ -1,0 +1,18 @@
+# Pinned to versions verified working for this demo (Python 3.13).
+# --- Agent framework (native LangGraph) ---
+langgraph==1.2.11
+langgraph-prebuilt==1.1.0
+langchain-core==1.6.3
+langchain-anthropic==1.7.2
+
+# --- Observability: Arize Phoenix + OpenInference (OpenTelemetry) ---
+arize-phoenix==20.4.0
+arize-phoenix-evals==3.5.1
+arize-phoenix-otel==0.17.1
+openinference-instrumentation-langchain==0.1.72
+opentelemetry-sdk==1.44.0
+opentelemetry-exporter-otlp==1.44.0
+
+# --- Utilities ---
+python-dotenv==1.2.3
+pandas==3.0.5

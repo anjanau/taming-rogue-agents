@@ -1,0 +1,52 @@
+Taming Rogue Agents: Observability-Driven Evaluation for Production Reliability
+
+Session Description: 
+Moving from a viral demo to a reliable enterprise AI application is the hardest hurdle in modern software engineering. Because agents are inherently non-deterministic, validating their performance requires a granular look at the why and how behind every action. 
+
+This session explores how observability redefines agentic evaluation beyond binary pass/fail testing, shifting the focus from the result to the entire reasoning chain. We dive into a playbook to ensure your agents aren’t just getting lucky, but are following the correct execution path for real-world tasks.
+
+What you’ll learn:
+-	Beyond Output: Why judging agents on final answers alone is a recipe for silent failure in production. 
+-	Handling Non-Determinism: Using observability to build confidence in unpredictable agentic workflows.
+-	The Playbook: A practical, incremental framework for implementing evaluation-first development.
+Are you ready to stop guessing and start measuring? Join us to master the art of agent evaluation.
+
+Session Format: 
+In Person
+
+Session Type: 
+Presentation
+
+Details:
+
+In this session, we bridge the gap between AI research and product engineering. We will explore the "Evals-First" methodology used by industry leaders to build agentic systems that work reliably at scale. Attendees will learn how to move beyond basic prompting and build robust, automated evaluation harnesses that catch compounding errors before they hit the user. 
+
+We provide a deep dive into the shift from traditional AI monitoring to agent-centric observability where static test sets are no longer sufficient - introducing a practical playbook for validating non-deterministic reasoning chains, ensuring agents aren’t just getting lucky, but are following safe, efficient, and logical paths to their results.
+
+Attendees will learn to visualize agent "inner monologues," detect hallucination loops, and implement automated, model-graded evaluations to build production-ready AI applications.
+
+Session Agenda
+1.	The Shift in Paradigm: Why judging agents on final answers alone is a recipe for silent failure. 
+1.	Inside the Black Box: Instrumenting reasoning chains, tool calls, and state transitions.
+2.	The Agent GPA Framework: Measuring Goal fulfillment, Plan quality, and Action adherence.
+3.	Technical Components of an Eval: Datasets, Graders, Transcripts/Traces, Eval Harness
+4.	Hands-on Demo with Arize Phoenix & LangGraph:
+1.	Visualizing the Graph: Mapping complex LangGraph state machines to Phoenix traces.
+2.	Debugging Logic Loops: Using the Phoenix UI to identify why an agent might be stuck in a repetitive reasoning cycle.
+5.	Automated Benchmarking & Scale:
+1.	Trace Grading: Creating "Golden Datasets" of expected reasoning paths and tool outputs.
+2.	Running Experiments: Executing bulk evaluations across hundreds of test cases to measure agent regression.
+3.	LLM-as-a-Judge at Scale: Using Phoenix Evals to automatically score faithfulness, tool-calling accuracy, and relevance across entire batches.
+6.	The Playbook: A practical, incremental framework for implementing evaluation-first development for real-world problems.
+7.	Standards & Tooling: Leveraging OpenInference and OpenTelemetry for vendor-agnostic tracing.
+Target Audience
+•	AI Engineers & Developers: Building complex, multi agents systems that need granular debugging.
+•	MLOps Teams: Transitioning from simple LLM monitoring to full-stack agent observability.
+•	Product Managers: Responsible for the reliability and safety of autonomous systems in customer-facing roles.
+•	QA & Reliability Engineers: Creating test suites for non-deterministic software.
+Learning Outcomes
+•	Master Reasoning Analysis: Learn to trace the logic flow between LangGraph nodes and tool executions.
+•	Implement "Actionable" Telemetry: Move beyond logs to structured traces that reveal the why behind agent failures.
+•	Automate Agent Benchmarking: Learn how to run large-scale LLM-as-a-judge experiments to quantify agent performance before deployment.
+•	Identify Failure Modes Early: Detect "weak signals" like semantic drift or inefficient planning before they impact users.
+•	Live Tool Proficiency: Walk away with a live demo and the code to instrument LangGraph agents using Arize Phoenix for immediate production visibility.
